@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=1024, user-scalable=no">
+
+	<title>Your deck.js Presentation</title>
+
+	<!-- Required stylesheet -->
+	<link rel="stylesheet" href="core/deck.core.css">
+
+	<!-- Extension CSS files go here. Remove or add as needed. -->
+	<link rel="stylesheet" href="extensions/menu/deck.menu.css">
+	<link rel="stylesheet" href="extensions/status/deck.status.css">
+	<link rel="stylesheet" href="extensions/hash/deck.hash.css">
+	<link rel="stylesheet" href="extensions/scale/deck.scale.css">
+
+	<!-- Style theme. More available in /themes/style/ or create your own. -->
+	<link rel="stylesheet" href="themes/style/swiss.css">
+
+	<!-- Transition theme. More available in /themes/transition/ or create your own. -->
+	<link rel="stylesheet" href="themes/transition/horizontal-slide.css">
+
+	<!-- Required Modernizr file -->
+	<script src="modernizr.custom.js"></script>
+</head>
+<body class="deck-container">
+	<!-- my custom styles
+	just more convenient to put here -->
+	<style>
+		.alg-ri {
+			text-align: right;
+		}
+	</style>
+
+	<section class="slide">
+		<h2>Poll Everywhere<br> & Assessment</h2>
+		<br><br>
+		<p class="alg-ri">Eric Phetteplace <a href="http://twitter.com/phette23" title="my Twitter">@phette23</a></p>
+		<p class="alg-ri">Emerging Technologies Librarian</p>
+		<p class="alg-ri">Chesapeake College</p>
+	</section>
+
+	<section class="slide">
+		<h1>Find a Problem</h1>
+	</section>
+
+	<section class="slide">
+		<h2>Evidence of Student Learning</h2>
+		<ul>
+			<li>Limited time</li>
+			<li>Don't see final assignments</li>
+			<li>No pre-/post-instruction data</li>
+		</ul>
+	</section>
+
+	<section class="slide">
+		<h1>Enter Poll Everywhere</h1>
+	</section>
+
+	<section class="slide">
+		<!-- show Poll Ev off -->
+	</section>
+
+	<section class="slide">
+		<h2>Positive Results</h2>
+		<!-- graphs of our results -->
+	</section>
+
+	<section class="slide">
+		<h2>Limitations</h2>
+		<ul>
+			<li>Assesses a fraction of the full lesson</li>
+			<li>Time-consuming</li>
+			<li>Technical difficulties</li>
+			<li>40 responses on free account</li>
+		</ul>
+	</section>
+
+	<!-- End slides. -->
+
+	<!-- deck.status snippet -->
+	<p class="deck-status">
+		<span class="deck-status-current"></span>
+		/
+		<span class="deck-status-total"></span>
+	</p>
+
+	<!-- deck.hash snippet -->
+	<a href="." title="Permalink to this slide" class="deck-permalink">#</a>
+
+	<!-- Required JS files. -->
+	<script src="jquery-1.7.2.min.js"></script>
+	<script src="core/deck.core.js"></script>
+
+	<!-- Extension JS files. Add or remove as needed. -->
+	<script src="extensions/hash/deck.hash.js"></script>
+	<script src="extensions/menu/deck.menu.js"></script>
+	<script src="extensions/status/deck.status.js"></script>
+	<script src="extensions/scale/deck.scale.js"></script>
+
+	<!-- Initialize the deck. You can put this in an external file if desired. -->
+	<script>
+		$(function() {
+			$.deck('.slide');
+		});
+	</script>
+</body>
+</html>
