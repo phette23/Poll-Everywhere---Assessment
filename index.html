@@ -53,7 +53,7 @@
 	<section class="slide">
 		<h2>Evidence of Student Learning</h2>
 		<ul>
-			<li>Surveying faculty, not students</li>
+			<li>Surveying attitude, not learning</li>
 			<li>Limited time</li>
 			<li>Don't see final assignments</li>
 			<li>No pre-/post-instruction data</li>
@@ -70,6 +70,17 @@
 	</section>
 
 	<section class="slide">
+		<h2>Serious Data</h2>
+		<h3>What is the worst show on television?</h3>
+		<ol style="list-style-type:lower-alpha">
+			<li id="jshore">[ Jersey Shore ]</li>
+			<li>[ Bridalplasty ]</li>
+			<li>[ Two & a Half Men ]</li>
+			<li>[ None of the Above ]</li>
+		</ol>
+	</section>
+
+	<section class="slide">
 		<h2>Our Question(s)</h2>
 		<h3>If your topic is the expense of higher education, which search is best?</h3>
 		<ol style="list-style-type:lower-alpha">
@@ -77,6 +88,18 @@
 			<li>[ Is it possible to pay off one's students loans before death? ]</li>
 			<li>[ is school worth money ]</li>
 		</ol>
+	</section>
+
+	<section class="slide">
+		<h2>Positive Results</h2>
+		<img src="https://docs.google.com/spreadsheet/oimg?key=0AhpGBjqdGNCtdG5MOG5keDRubGNXTFFzUGNTZW5VaXc&oid=1&zx=qmoa1adedo1b" />
+		<p class="tac">Polled 90 out of 185 students taught.</p>
+	</section>
+
+	<section class="slide">
+		<h2><em>Transformative</em> Assessment</h2>
+		<a href="http://www.flickr.com/photos/hijukal/68262810/" title="More than meets the eye by hijukal, on Flickr"><img src="img/transformer.jpg" width="500" height="333" alt="More than meets the eye"></a>
+		<p class="tac">via <a href="http://www.flickr.com/photos/hijukal/">hijukal</a> on <a href="http://www.flickr.com/">Flickr</a></p>
 	</section>
 
 	<section class="slide">
@@ -111,18 +134,6 @@
 			   d="m 16.949153,19.491525 70.762711,57.20339" />
 			</svg>
 		</div>
-	</section>
-
-	<section class="slide">
-		<h2>Positive Results</h2>
-		<img src="https://docs.google.com/spreadsheet/oimg?key=0AhpGBjqdGNCtdG5MOG5keDRubGNXTFFzUGNTZW5VaXc&oid=1&zx=qmoa1adedo1b" />
-		<p class="tac">Polled 90 out of 185 students taught.</p>
-	</section>
-
-	<section class="slide">
-		<h2><em>Transformative</em> Assessment</h2>
-		<a href="http://www.flickr.com/photos/hijukal/68262810/" title="More than meets the eye by hijukal, on Flickr"><img src="img/transformer.jpg" width="500" height="333" alt="More than meets the eye"></a>
-		<p class="tac">via <a href="http://www.flickr.com/photos/hijukal/">hijukal</a> on <a href="http://www.flickr.com/">Flickr</a></p>
 	</section>
 
 	<section class="slide">
@@ -170,7 +181,13 @@
 	<!-- Initialize the deck. You can put this in an external file if desired. -->
 	<script>
 		$(function() {
-			$.deck('.slide');
+			$.deck( '.slide' );
+			$( '#jshore' ).on( 'click', function(e) {
+				$( this ).css( {
+					"color": "red",
+					"font-weight": "800"
+				} )
+			});
 		});
 	</script>
 </body>
