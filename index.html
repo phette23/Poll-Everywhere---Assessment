@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=1024, user-scalable=no">
 
-	<title>Your deck.js Presentation</title>
+	<title>Poll Everywhere & Assessment</title>
 
 	<!-- Required stylesheet -->
 	<link rel="stylesheet" href="core/deck.core.css">
@@ -142,7 +142,6 @@
 			<li>Assesses a fraction of the full lesson</li>
 			<li>Time-consuming</li>
 			<li>Technical difficulties</li>
-			<li>Only 40 responses on free account</li>
 		</ul>
 	</section>
 
@@ -177,11 +176,11 @@
 	<script src="extensions/menu/deck.menu.js"></script>
 	<script src="extensions/status/deck.status.js"></script>
 	<script src="extensions/scale/deck.scale.js"></script>
-
 	<!-- Initialize the deck. You can put this in an external file if desired. -->
 	<script>
 		$(function() {
 			$.deck( '.slide' );
+			// turn Jersey Shore red on click
 			$( '#jshore' ).on( 'click', function(e) {
 				$( this ).css( {
 					"color": "red",
